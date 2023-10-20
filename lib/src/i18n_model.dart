@@ -37,9 +37,46 @@ enum LocaleType {
   uk,
   he,
   hi,
+  lt,
 }
 
 final _i18nModel = <LocaleType, Map<String, Object>>{
+   LocaleType.lt: {
+    'cancel': 'Atšaukti',
+    'done': 'Patvirtinti',
+    'today': 'Šiandien',
+    'monthShort': [
+      'Sau.',
+      'Vas.',
+      'Kov.',
+      'Bal.',
+      'Geg.',
+      'Bir.',
+      'Lie.',
+      'Rgp.',
+      'Rgs.',
+      'Spa.',
+      'Lap.',
+      'Gru.'
+    ],
+    'monthLong': [
+      'Sausio',
+      'Vasario',
+      'Kovo',
+      'Balandžio',
+      'Gegužės',
+      'Birželio',
+      'Liepos',
+      'Rugpjūčio',
+      'Rugsėjo',
+      'Spalio',
+      'Lapkričio',
+      'Gruodžio'
+    ],
+    'day': ['Pr', 'A', 'T', 'K', 'Pe', 'Š', 'S'],
+    'am': 'AM',
+    'pm': 'PM'
+  },
   LocaleType.kh: {
     'cancel': 'បោះបង់',
     'done': 'រួចរាល់',
